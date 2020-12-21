@@ -15,6 +15,7 @@ img {
 body {
   height: 100%;
   font-family: 'Roboto', sans-serif;
+  background: #F0F8FF;
 }
 
 .wrapper {
@@ -33,19 +34,6 @@ body {
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-}
-
-.footer {
-  height: 40px;
-  background: #ADD8E6;
-  clear: both;
-  padding-top: 15px;
-  font-size: 20px;
-  padding-left: 120px;
-}
-
-.footer {
-  flex: 0 0 auto;
 }
 
 .mask {
@@ -77,4 +65,9 @@ body {
   background: #add8e6;
   z-index: 3;
   margin-top: 12px;
+}
+
+.btn:hover {
+  background: #5697ad;
+  transition: all ease .3s;
 }

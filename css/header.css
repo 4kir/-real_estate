@@ -30,3 +30,8 @@
   padding: 4px;
   color: #fff;
 }
+
+.nav_link:hover a {
+  color: #9494ea;
+  transition: all ease .3s;
+}

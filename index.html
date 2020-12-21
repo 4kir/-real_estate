@@ -4,20 +4,25 @@
   <meta charset="UTF-8">
   <title>Недвижимость</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/about.css">
+  <link rel="stylesheet" href="css/contacts.css">
+  <link rel="stylesheet" href="css/footer.css">
   <link rel="stylesheet" href="css/header.css">
   <link rel="stylesheet" href="css/page_block.css">
-  <link rel="stylesheet" href="css/about.css">
   <link rel="stylesheet" href="css/plus.css">
-  <link rel="stylesheet" href="css/test.css">
   <link rel="stylesheet" href="css/media.css">
-  <link rel="stylesheet" href="css/contacts.css">
+  <link rel="stylesheet" href="css/test.css">
+  <link rel="stylesheet" href="css/style.css">
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script> 
+  <script type="text/javascript" charset="utf-8" src="js/parallax.js-1.5.0/parallax.min.js"></script>
+  <script type="text/javascript" charset="utf-8" src="js/scripts.js"></script>
 </head>
 <body>
   <div class="page">
+
     <div class="header">
       <div class="wrapper flex">
         <div class="logo">
@@ -33,12 +38,12 @@
         </div>
       </div>
     </div>
+
     <div class="page_block">
       <div class="slider">
-        <div class="slide">
+        <div class="slide" data-parallax="scroll" data-image-src="img/1.jpg">
           <h1>Поиск недвижимости по всей стране</h1>
           <a class="btn" href="#">Подробнее</a>
-          <a href="#"><img src="img/1.jpg" alt="pic"></a>
           <span class="mask"></span>
         </div>
       </div>
@@ -47,16 +52,13 @@
           <h3 class="page_title">О компании</h3>
           <div class="about_inner">
             <div class="about_pic">
-              <iframe src="https://www.youtube.com/embed/XQl-5I2lf1o" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              <iframe src="https://www.youtube.com/embed/XQl-5I2lf1o" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             </div>
-            <p class="about_text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-              tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-              quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-              consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-              cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-              proident, sunt in culpa qui officia deserunt mollit anim id est laborum. aliquip ex ea commodo
-              consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-            cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non</p>
+            <p class="about_text">Ищите надежные риэлторские агентства? Обратитесь в "Хорошую Компанию". Мы предоставляем комплексное риэлторское, брокерское, юридическое сопровождение. Компания оказывает услуги на рынке с 2002 года. 
+
+            Официальный сайт агентства недвижимости Этажи позволяет удобно выбирать квартиры, рассчитать через калькулятор и оформить ипотеку онлайн. 
+
+            Важное отличие "Хорошей Компании" от других риэлторских компаний - гарантийный сертификат. В случае проблем мы компенсируем ваши потери по сделке из собственного фонда. Также мало какое агентство по продаже недвижимости может предложить эффективное оформление заявки на ипотеку, а также дополнительные скидки и бонусы. С нами шанс на одобрение ипотеки на 25% выше! </p>
           </div>
         </div>
       </div>
@@ -69,39 +71,34 @@
                 <img src="img/adv1.svg" alt="pic">
               </div>
               <h5>Удобные способы оплаты</h5>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-              </p>
+              <p>Все консультации и сервисы компании бесплатны. Вы платите только после сделки.</p>
             </div>
             <div class="plus_item">
               <div class="plus_pic">
                 <img src="img/adv2.svg" alt="pic">
               </div>
               <h5>Акции и бонусы</h5>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-              </p>
+              <p>Активно используем все способы современного продвижения</p>
             </div>
             <div class="plus_item">
               <div class="plus_pic">
                 <img src="img/adv3.svg" alt="pic">
               </div>
               <h5>Дополнительные услуги</h5>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-              </p>
+              <p>Экономим ваше время: берём всю рутину на себя, вам не нужно тратить время, чтобы разбираться.</p>
             </div>
             <div class="plus_item">
               <div class="plus_pic">
                 <img src="img/adv4.svg" alt="pic">
               </div>
               <h5>100% Качество</h5>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-              </p>
+              <p>Над продажей Вашей квартиры работает целая команда агентства</p>
             </div>
           </div>
         </div>
       </div>
-      <div class="test flex">
+      <div class="test flex"  data-parallax="scroll" data-image-src="img/image.jpg">
         <div class="wrapper">
-          <img src="img/image.jpg" alt="pic">
           <span class="mask"></span>
           <div class="test_inner flex">
             <div class="text_left">
@@ -114,9 +111,28 @@
           </div>
         </div>
       </div>
+      <div class="contacts" id="contacts">
+        <div class="wrapper">
+          <div class="contacts_inner flex">
+            <div class="contacts_map">
+              <img src="img/map.jpg" alt="map">
+            </div>
+            <div class="contacts_form">
+              <h4>Напишите нам</h4>
+              <input class="contacts_input" type="text" placeholder="Ваше имя">
+              <input class="contacts_input" type="text" placeholder="Email">
+              <textarea class="contacts_text" name="text" placeholder="Ваше сообщение"></textarea>
+              <button class="btn">Отправить</button>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
+
     <div class="footer">
-      mail: mama-rama@mail.gp
+      <p>© Хорошая Компания 2020</p>
+      <p>Агентство недвижимости</p>
+      <a href="mailto:mama-rama@mail.gp">mama-rama@mail.gp</a>
     </div>
   </div>
 </body>
