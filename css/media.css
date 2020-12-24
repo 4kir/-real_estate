@@ -67,11 +67,12 @@
   }
 
   .nav ul {
-    flex-wrap: wrap;
+    display: block;
   }
 
   .nav ul li {
     padding: 0 10px;
+    display: block;
   }
 
   .slide h1 {
